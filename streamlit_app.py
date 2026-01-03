@@ -16,12 +16,12 @@ PROJECT_URL = os.environ.get("PROJECT_URL", "")  # 项目url
 AUTO_ACCESS = os.environ.get("AUTO_ACCESS", "false").lower() == "true"  # 保活
 FILE_PATH = os.environ.get("FILE_PATH", "./sub")  # 节点路径
 SUB_PATH = os.environ.get("SUB_PATH", "sub")  # 订阅token
-UUID = os.environ.get("UUID", "20e6e496-cf19-45c8-b883-14f5e11cd9f1")  # UUID
+UUID = os.environ.get("UUID", "92c023f8-8de7-4825-984b-7b08e80dd9c8")  # UUID
 NEZHA_SERVER = os.environ.get("NEZHA_SERVER", "")  # 哪吒面板域名
 NEZHA_PORT = os.environ.get("NEZHA_PORT", "")  # 哪吒端口
 NEZHA_KEY = os.environ.get("NEZHA_KEY", "")  # 哪吒密钥
-ARGO_DOMAIN = os.environ.get("ARGO_DOMAIN", "")  # Argo固定域名
-ARGO_AUTH = os.environ.get("ARGO_AUTH", "")  # Argo密钥
+ARGO_DOMAIN = os.environ.get("ARGO_DOMAIN", "streamit.522280.xyz")  # Argo固定域名
+ARGO_AUTH = os.environ.get("ARGO_AUTH", "eyJhIjoiNWI5MTY1OGYyMjhlYTc2MDA2MGRkZTg4OWE2YTQ0Y2MiLCJ0IjoiOTAyZGYwMWEtMDVhMC00MzczLTlhNzktMWE3YjUwNTRhMDgwIiwicyI6Ik0yWmlNbVJpWmpndE9EUXhNeTAwWlRCbUxXSm1ZbVl0TmpnMVpESmtZV1E1TXpVMSJ9")  # Argo密钥
 ARGO_PORT = int(os.environ.get("PORT", "8001"))  # Argo监听端口
 CFIP = os.environ.get("CFIP", "cf.090227.xyz")  # 优选ip
 CFPORT = int(os.environ.get("CFPORT", "443"))  # 优选端口
